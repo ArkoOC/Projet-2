@@ -5,30 +5,78 @@
     padding-right: 3.15em;
     justify-content: space-between;
 }
+
 #logo{
-    width: 61.09px;
-    height: 19px;
+    width: 191px;
+    height: 60px;
 }
-nav{
-    width: 381px;
-    height: 19px;
-    margin-top: 50px;
-    }
-#hébergements{
+
+#nav{
+    display: flex;
+    width: 400px;
+    height: 60px;
+    padding-top: 25px;
+    justify-content: space-around;
+}
+
+#hebergements,#activites{
     text-decoration: none;
     color: black;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+
 }
 
-#activités{
-    text-decoration: none;
-    color: black;
-}
-
-
-#hébergements:hover{
+#hebergements:hover{
     color: #0065FC;
+    border-top: 15px #0065FC;
 }
     
-#activités:hover{
+#activites:hover{
     color: #0065FC;
+}
+
+h1{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 26px;
+    padding-left: 2.1em;
+}
+
+h2{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    padding-left: 3.15em;
+}
+
+.formulaire{
+    display: flex;
+    padding-left: 3.15em;
+    width: 418px;
+    height: 50px;
+}
+
+#icone{
+    background: GREY;
+    border: 1px solid grey;
+    border-radius: 15px 0px 0px 15px;
+}
+
+#bouton{
+    background: #0065FC;
+    border: 1px solid #0065FC;
+    border-radius: 0px 15px 15px 0px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 15px 16px;
+    gap: 10px;
 }
