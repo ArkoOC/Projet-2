@@ -65,18 +65,65 @@ h2{
 }
 
 #icone{
-    background: GREY;
-    border: 1px solid grey;
+    background: #F2F2F2;
+    border: 3px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
+    padding: 15px 16px;
 }
 
-#bouton{
+#Bouton{
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     padding: 15px 16px;
-    gap: 10px;
+    color: white;
+}
+
+.champ{
+    border-top: 2px solid #F2F2F2;
+    border-left:2px solid #F2F2F2;
+    border-bottom:2px solid #F2F2F2;
+    border-right: none;
+    padding: 15px 16px;
+}
+
+#Bouton:active{
+    border:1px solid black ;
+}
+
+#filtres{
+    display: flex;
+    gap: 5em;
+    margin-left: 3.15em;
+    margin-top: 2em;
+    
+}
+
+#economique,#Familial,#Romantique,#Animaux{
+    border: 2px solid #D9D9D9;
+    border-radius: 25px;
+    padding: 5px 20px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+}
+
+#filtre{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
+
+.font-filtre{
+    color: blue;
+}
+
+#economique:hover,#Familial:hover,#Romantique:hover,#Animaux:hover{
+    background-color: #DEEBFF;
+}
+#economique:active,#Familial:active,#Romantique:active,#Animaux:active{
+    background-color: #DEEBFF;
 }
