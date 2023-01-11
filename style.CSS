@@ -6,16 +6,15 @@
     justify-content: space-between;
 }
 
-#logo{
-    width: 191px;
-    height: 60px;
+#Logo{
+    max-width: 61px;
+    max-height: 29px;
 }
 
 #nav{
     display: flex;
     width: 400px;
     height: 60px;
-    padding-top: 25px;
     justify-content: space-around;
 }
 
@@ -59,6 +58,7 @@ h2{
 
 .formulaire{
     display: flex;
+    margin-top: 2em;
     padding-left: 3.15em;
     width: 418px;
     height: 50px;
@@ -115,6 +115,7 @@ h2{
     font-size: 18px;
     line-height: 21px;
     text-align: center;
+    margin-top: 0.4em;
 }
 
 .font-filtre{
@@ -126,4 +127,39 @@ h2{
 }
 #economique:active,#Familial:active,#Romantique:active,#Animaux:active{
     background-color: #DEEBFF;
+}
+
+#info{
+    display: flex;
+    padding-left: 3.15em;
+    padding-top: 3.15em;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    gap: 10px;
+}
+
+#Font_Info{
+    color: #0065FC;
+    border: 1px solid #D9D9D9;
+    border-radius: 50%;
+    width: 30px;
+    height: 25px;
+    text-align: center;
+    padding-top: 5px;
+}
+
+#Info_Texte{
+    padding-top: 0.4em;
+}
+
+#Hébergements_à_Marseille{
+    background-color:#F2F2F2;
+    width: 880px;
+    height: 626px;
+    border-radius: 20px;
+    margin-top: 2em;
+    margin-left:3.15em;
 }
