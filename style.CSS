@@ -93,7 +93,7 @@ h2{
 
 #filtres{
     display: flex;
-    gap: 5em;
+    gap: 7em;
     margin-left: 3.15em;
     margin-top: 2em;
     
@@ -156,10 +156,68 @@ h2{
 }
 
 #Hébergements_à_Marseille{
+    display: flex;
+    flex-wrap: wrap;
     background-color:#F2F2F2;
-    width: 880px;
+    width: 1080px;
     height: 626px;
     border-radius: 20px;
     margin-top: 2em;
     margin-left:3.15em;
+    justify-content: space-around;
+    max-lines: 2;
 }
+
+#premiere_ligne_hebergement{
+    display: flex;
+    justify-content: space-around;
+    width: 880px;
+}
+
+#deuxieme_ligne_hebergement{
+    display: flex;
+    justify-content: space-around;
+    width: 880px;
+}
+
+.Cartes_hebergements{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2em;
+    width: 200px;
+    height: 230px;
+    background-color: white;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+    border-radius: 20px;
+}
+
+.photo_hebergement{
+    width: 190px;
+    height: 130px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+h3{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    padding-left: 1em;
+}
+
+.Texte_hebergement{
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 1em;
+}
+
+.Etoiles_hebergement{
+    font-weight: 400;
+    font-size: 12px;
+    padding-left: 1em;
+}
+
