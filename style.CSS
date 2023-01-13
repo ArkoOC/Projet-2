@@ -183,7 +183,7 @@ h2{
 .Cartes_hebergements{
     display: flex;
     flex-direction: column;
-    margin-top: 2em;
+    margin-top: 2.5em;
     width: 200px;
     height: 230px;
     background-color: white;
@@ -193,7 +193,7 @@ h2{
 
 .photo_hebergement{
     width: 190px;
-    height: 130px;
+    max-height: 130px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-left: 5px;
@@ -221,3 +221,6 @@ h3{
     padding-left: 1em;
 }
 
+h4{
+    
+}
