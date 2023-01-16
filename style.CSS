@@ -1,3 +1,8 @@
+body{
+    max-width: 1440px;
+    max-height: 1884;
+    margin: auto;
+}
 #en-tete{
     display: flex;
     padding-top: 3.15em;
@@ -14,7 +19,7 @@
 #nav{
     display: flex;
     width: 400px;
-    height: 60px;
+    height: 200px;
     justify-content: space-around;
 }
 
@@ -31,11 +36,12 @@
 
 #hebergements:hover{
     color: #0065FC;
-    border-top: 15px #0065FC;
+    border-top:solid 5px #0065FC;
 }
     
 #activites:hover{
     color: #0065FC;
+    border-top: solid 5px #0065FC;
 }
 
 h1{
@@ -58,8 +64,9 @@ h2{
 
 .formulaire{
     display: flex;
+    font-size: 0px;
     margin-top: 2em;
-    padding-left: 3.15em;
+    margin-left: 45px;
     width: 418px;
     height: 50px;
 }
@@ -69,13 +76,14 @@ h2{
     border: 3px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
     padding: 15px 16px;
+    font-size: 16px;
 }
 
 #Bouton{
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
-    padding: 15px 16px;
+    padding: 15.3px 16px;
     color: white;
 }
 
@@ -84,7 +92,7 @@ h2{
     border-left:2px solid #F2F2F2;
     border-bottom:2px solid #F2F2F2;
     border-right: none;
-    padding: 15px 16px;
+    padding: 15.3px 16px ;
 }
 
 #Bouton:active{
@@ -156,11 +164,11 @@ h2{
 }
 
 #Hébergements_à_Marseille{
-    display: flex;
+
     flex-wrap: wrap;
     background-color:#F2F2F2;
     width: 1080px;
-    height: 626px;
+    height: 700px;
     border-radius: 20px;
     margin-top: 2em;
     margin-left:3.15em;
@@ -171,19 +179,20 @@ h2{
 #premiere_ligne_hebergement{
     display: flex;
     justify-content: space-around;
-    width: 880px;
+    padding-top: 2em;
+    width: 1080px;
 }
 
 #deuxieme_ligne_hebergement{
     display: flex;
     justify-content: space-around;
-    width: 880px;
+    margin-top: 2em;
+    width: 1080px;
 }
 
 .Cartes_hebergements{
     display: flex;
     flex-direction: column;
-    margin-top: 2.5em;
     width: 200px;
     height: 230px;
     background-color: white;
@@ -222,5 +231,8 @@ h3{
 }
 
 h4{
-    
+    display:flex ;
+    max-height: 30px;
+    margin-left: 2em;
+    padding-top: 2em; 
 }
