@@ -1,72 +1,71 @@
 body{
     max-width: 1440px;
-    max-height: 1884;
+    max-height: 1884px;
     margin: auto;
+    font-family: 'Raleway';
+    font-style: normal;
 }
 #en-tete{
     display: flex;
-    padding-top: 3.15em;
-    padding-left: 3.15em;
-    padding-right: 3.15em;
+    max-width: 1308px;
+    max-height: 202px;
     justify-content: space-between;
+    align-items: center;
 }
 
 #Logo{
     max-width: 61px;
     max-height: 29px;
+    align-items: center;
 }
 
 #nav{
     display: flex;
     width: 400px;
-    height: 200px;
+    height: 100px;
     justify-content: space-around;
+    align-items: center;
 }
 
 #hebergements,#activites{
     text-decoration: none;
     color: black;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-
 }
-
+#hebergements{
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
 #hebergements:hover{
     color: #0065FC;
-    border-top:solid 5px #0065FC;
+    border-top: solid 3px #0065fc;
+    width: 150px;
 }
     
 #activites:hover{
     color: #0065FC;
-    border-top: solid 5px #0065FC;
 }
 
 h1{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 22px;
     line-height: 26px;
-    padding-left: 2.1em;
 }
 
 h2{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
-    padding-left: 3.15em;
 }
 
 .formulaire{
     display: flex;
     font-size: 0px;
     margin-top: 2em;
-    margin-left: 45px;
+
     width: 418px;
     height: 50px;
 }
@@ -101,24 +100,20 @@ h2{
 
 #filtres{
     display: flex;
-    gap: 7em;
-    margin-left: 3.15em;
     margin-top: 2em;
-    
+    max-width: 914px;
+    max-height: 44px;
+    justify-content: space-between;
 }
 
 #economique,#Familial,#Romantique,#Animaux{
     border: 2px solid #D9D9D9;
     border-radius: 25px;
     padding: 5px 20px;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
 }
 
 #filtre{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 700;
     font-size: 18px;
     line-height: 21px;
@@ -139,10 +134,7 @@ h2{
 
 #info{
     display: flex;
-    padding-left: 3.15em;
     padding-top: 3.15em;
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 19px;
@@ -167,58 +159,56 @@ h2{
 
     flex-wrap: wrap;
     background-color:#F2F2F2;
-    width: 1080px;
+    width: 880px;
     height: 700px;
     border-radius: 20px;
     margin-top: 2em;
-    margin-left:3.15em;
     justify-content: space-around;
-    max-lines: 2;
 }
 
 #premiere_ligne_hebergement{
     display: flex;
     justify-content: space-around;
-    padding-top: 2em;
-    width: 1080px;
+    width: 880px;
 }
 
 #deuxieme_ligne_hebergement{
     display: flex;
     justify-content: space-around;
     margin-top: 2em;
-    width: 1080px;
+    width: 880px;
 }
 
 .Cartes_hebergements{
     display: flex;
     flex-direction: column;
-    width: 200px;
+    width: 246px;
     height: 230px;
     background-color: white;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
 }
+.Texte_hebergement{
+    width: 204px;
+    height: 39px;
+
+}
 
 .photo_hebergement{
-    width: 190px;
-    max-height: 130px;
+    width: 237px;
+    max-height: 124px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     margin-left: 5px;
     margin-top: 5px;
 }
-h3{
-    font-family: 'Raleway';
-    font-style: normal;
+h4{
     font-weight: 700;
     font-size: 14px;
-    padding-left: 1em;
+    margin-bottom: -0.5em;
 }
 
 .Texte_hebergement{
-    font-family: 'Raleway';
-    font-style: normal;
     font-weight: 400;
     font-size: 12px;
     padding-left: 1em;
@@ -227,12 +217,53 @@ h3{
 .Etoiles_hebergement{
     font-weight: 400;
     font-size: 12px;
-    padding-left: 1em;
 }
 
-h4{
+h3{
     display:flex ;
     max-height: 30px;
     margin-left: 2em;
     padding-top: 2em; 
+    font-size: 22px;
+    line-height: 26px;
+}
+
+.afficher_plus{
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 2em;
+    margin-left: 2em;
+}
+
+.etoiles_grise{
+    color: #F2F2F2;
+}
+
+.Etoiles_hebergement{
+    color: #0065FC;
+}
+
+#hebergements_populaires{
+    display: flex;
+    justify-content: space-between;
+}
+
+#Les_plus_populaires{
+    display: flex;
+    height: 700px;
+    width: 500px;
+    background-color: #F2F2F2;
+    border-radius: 20px;
+    margin-top: 2em;
+}
+
+.Cartes_populaire{
+    height: 144px;
+    width: 343px;
+    background-color: white;
+}
+
+.photo_populaire{
+    width: 137px;
+    height: 144px;
 }
