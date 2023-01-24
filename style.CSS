@@ -6,7 +6,7 @@ body{
 }
 #en-tete{
     display: flex;
-    max-width: 1308px;
+    max-width: 1440px;
     max-height: 202px;
     justify-content: space-between;
     align-items: center;
@@ -22,8 +22,7 @@ body{
     display: flex;
     width: 400px;
     height: 100px;
-    justify-content: space-around;
-    align-items: center;
+    line-height: 50px;
 }
 
 #hebergements,#activites{
@@ -32,20 +31,21 @@ body{
     font-weight: 500;
     font-size: 16px;
     line-height: 19px;
-}
-#hebergements{
+
+    width: 50%;
+    text-align: center;
     height: 100px;
-    display: flex;
-    align-items: center;
+    line-height: 80px;
 }
+
 #hebergements:hover{
     color: #0065FC;
     border-top: solid 3px #0065fc;
-    width: 150px;
 }
     
 #activites:hover{
     color: #0065FC;
+    border-top: solid 3px #0065fc;
 }
 
 h1{
@@ -281,7 +281,6 @@ h3{
     background-color: #FFFFFF;
     filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
     border-radius: 20px;
-
 }
 
 .photo_populaire{
@@ -291,6 +290,7 @@ h3{
     height: 138px;
     border-top-left-radius: 20px;
     border-bottom-left-radius:20px;
+
 }
 
 .Texte_populaire{
@@ -311,11 +311,57 @@ h3{
 #Activités_Marseille{
     margin-top: 3em;
     width: 1440px;
-    height: 500px;
-    border:solid 5px aquamarine;
+}
+
+#babiba{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
 .Activités_à_Marseille{
     margin-left: 0em;
+}
+
+.Photo_activité{
+    max-width: 302px;
+    height: 400px;
+    object-fit: cover;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.Carte_activité{
+    max-width: 302px;
+    height: 450px;
+    border-radius: 20px;
+    background: #FFFFFF;
+    filter: drop-shadow(0px 3px 15px rgba(0, 0, 0, 0.1));
+
+}
+
+.Titre_activité{
+    padding-left: 1em;
+}
+
+footer{
+    display: flex;
+    margin-top: 2em;
+    padding-left: 2em;
+    gap: 25em;
+    width: 1440px;
+    height: 225px;
+    background-color: #F2F2F2;
+}
+
+h5{
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21px;
+}
+
+#à_propos{
+font-size: 16px;
+font-weight: 400;
+line-height: 19px;
 }
 
