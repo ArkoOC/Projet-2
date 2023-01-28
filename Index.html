@@ -17,8 +17,8 @@
         </header>
         
         <nav id="nav">
-            <a id="hebergements" href="Booki.com/hébergements">Hébergements</a>
-            <a id="activites" href="Booki.com/activités">Activités</a>
+            <a id="hebergements" href="">Hébergements</a>
+            <a id="activites" href="">Activités</a>
         </nav>
     </div>
     
@@ -82,7 +82,7 @@
                     <div class="Texte_hebergement">
                         <div class="conteneur_hebergement">
                             <h4 class="Titre_hebergement">Hôtel des Mouettes</h4>
-                            <p>Nuit à partir de 76€€</p>
+                            <p>Nuit à partir de 76€</p>
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                         </div>
                     </div>    
@@ -93,8 +93,8 @@
                     <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                     <div class="Texte_hebergement">
                         <div class="conteneur_hebergement">
-                            <h4 class="Titre_hebergement">Auberge La Canebière</h4>
-                            <p>Nuit à partir de 25€</p>
+                            <h4 class="Titre_hebergement">Hôtel de la mer</h4>
+                            <p>Nuit à partir de 46€</p>
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                         </div>
                     </div>
@@ -103,8 +103,8 @@
                         <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
                         <div class="Texte_hebergement">
                             <div class="conteneur_hebergement">
-                                <h4 class="Titre_hebergement">Hôtel du port</h4>
-                                <p>Nuit à partir de 52€</p> 
+                                <h4 class="Titre_hebergement">Auberge Le Panier</h4>
+                                <p>Nuit à partir de 23€</p> 
                                 <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                             </div>
                         </div>
@@ -113,8 +113,8 @@
                         <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
                         <div class="Texte_hebergement">
                             <div class="conteneur_hebergement">
-                                <h4 class="Titre_hebergement">Hôtel des Mouettes</h4>
-                                <p>Nuit à partir de 76€€</p>
+                                <h4 class="Titre_hebergement">Hôtel Chez Amina</h4>
+                                <p>Nuit à partir de 96€€</p>
                                 <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                             </div>    
                         </div> 
@@ -124,6 +124,7 @@
             </div>
             <div id="Les_plus_populaires">
                 <h3 id="Top_carte">Les plus populaires<i class="fa-solid fa-chart-line" id="chartline"></i></h3>
+                <div id="bloc_carte_populaire">
                 <div class="Cartes_populaire">
                     <img class="photo_populaire" src="Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel du soleil le matin">
                     <div class="test_p">
@@ -158,13 +159,14 @@
                         <div class="Etoiles_populaire">
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p></p>
                         </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>  
         <div id="Activités_Marseille">
             <h3 class="Activités_à_Marseille" >Activités à Marseille</h3>
-            <div id="babiba">
+            <div id="toute_cartes_activité">
                  <div class="Carte_activité">
                     <img class="Photo_activité" src="Images_booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
                     <h4 class="Titre_activité">Vieux port</h4>
@@ -184,21 +186,23 @@
             </div>    
         </div>
         <footer>
-            <div id="à_propos">
-                <h5>À propos</h5>
-                <p>Fonctionnement du site</p>
-                <p>Conditions générales</p>
-                <p>Données et confidentialité</p>
-            </div>
-            <div id="Nos_hébergement">
-                <h5>Nos hébergements</h5>
-                <p>Charte qualité</p>
-                <p>Proposer votre hôtel</p>
-            </div>
-            <div id="Assistance">
-                <h5>Assistance</h5>
-                <p>Centre d’aide</p>
-                <p>Nous contacter</p>
+            <div id="texte_footer">
+                <div id="à_propos">
+                    <h5>À propos</h5>
+                    <p><a href="">Fonctionnement du site</a></p>
+                    <p><a href="">Conditions générales</a></p>
+                    <p><a href="">Données et confidentialité</a></p>
+                </div>
+                <div id="Nos_hébergement">
+                    <h5>Nos hébergements</h5>
+                    <p><a href="">Charte qualité</a></p>
+                    <p><a href="">Proposer votre hôtel</a></p>
+                </div>
+                <div id="Assistance">
+                    <h5>Assistance</h5>
+                    <p><a href="">Centre d’aide</a></p>
+                    <p><a href="">Nous contacter</a></p>
+                </div>
             </div>
         </footer>
     </body>
