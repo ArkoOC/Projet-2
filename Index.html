@@ -7,21 +7,21 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@500;800&display=swap" rel="stylesheet">    
     <script src="https://kit.fontawesome.com/76aa1ddc1d.js" crossorigin="anonymous"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-    <div id="en-tete">
-        <header>
+    <header>
+        <div id="en-tete">
             <div>
                 <img src="Images_Booki/logo/Booki.png" alt="Logo haut de page" id="Logo">
             </div>
-        </header>
-        
-        <nav id="nav">
-            <a id="hebergements" href="">Hébergements</a>
-            <a id="activites" href="">Activités</a>
-        </nav>
-    </div>
-    
+            
+            <nav id="nav">
+                <a id="hebergements" href="#Hébergements_à_Marseille">Hébergements</a>
+                <a id="activites" href="#Activités_Marseille">Activités</a>
+            </nav>
+        </div>
+    </header>
     <div id="Titres_de_pages">
         <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
         <h2>En plein centre-ville ou en pleine nature</h2>
@@ -36,28 +36,39 @@
                 <input class="champ" type="text" placeholder="Marseille, France" />
                 <input type="submit" id="Bouton" value="Rechercher">        
             </div>
-        </form>  
+        </form>
+        <form method="get" action="" class="formulaire_2">
+            <div id="icone">  
+                <i class="fa-solid fa-location-dot"></i> 
+            </div>  
+            <div id="rechercher">     
+                <input class="champ" type="text" placeholder="Marseille, France" />
+                <input type="submit" id="Bouton" class="fa-solid fa-magnifying-glass" value="&#xf002">        
+            </div>
+        </form>    
     </div>
-    <div id="filtres">
+    <section id="Partie_filtre">    
         <a id="filtre">Filtres</a>
-        <a id="economique" >
-            <span class="font-filtre" ><i class="fa-solid fa-money-bill-wave"></i></span> Économique</a>
-        <a id="Familial">
-            <span class="font-filtre" ><i class="fa-solid fa-person"></i></span> Familial</a>
-        <a id="Romantique">
-            <span class="font-filtre" ><i class="fa-solid fa-heart"></i></span> Romantique</a>
-        <a id="Animaux">
-            <span class="font-filtre" ><i class="fa-solid fa-dog"></i></span> Animaux autorisées</a>
-    </div>
+            <div id="filtres">
+                <a class="differents_filtres" >
+                    <span class="font-filtre" ><i class="fa-solid fa-money-bill-wave"></i></span> Économique</a>
+                <a class="differents_filtres" >
+                    <span class="font-filtre" ><i class="fa-solid fa-person"></i></span> Familial</a>
+                <a class="differents_filtres" >
+                    <span class="font-filtre" ><i class="fa-solid fa-heart"></i></span> Romantique</a>
+                <a class="differents_filtres" >
+                    <span class="font-filtre" ><i class="fa-solid fa-dog"></i></span> Animaux autorisées</a>
+            </div>
+    </section>
     <div id="info">
         <a id="Font_Info"><i class="fa-solid fa-info"></i></a>
         <a id="Info_Texte">Plus de 500 logements sont disponibles dans cette ville</a>
     </div>
         <div id="hebergements_populaires">
-            <div id="Hébergements_à_Marseille">
+            <article id="Hébergements_à_Marseille">
                 <h3>Hébergements à Marseille</h3>
-            <div id="premiere_ligne_hebergement">
-                <div class="Cartes_hebergements">
+            <div class="ligne_hebergement">
+                <a class="Cartes_hebergements" href="">
                     <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg" alt="Auberge La Canebière">
                     <div class="Texte_hebergement">  
                         <div class="conteneur_hebergement">
@@ -66,8 +77,8 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>        
                         </div>  
                     </div>
-                </div>
-                <div class="Cartes_hebergements">
+                </a>
+                <a class="Cartes_hebergements" href="">
                     <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg" alt="Hôtel du port">
                     <div class="conteneur_hebergement">
                         <div class="Texte_hebergement">
@@ -76,8 +87,8 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                         </div>    
                     </div>
-                </div>
-                <div class="Cartes_hebergements">
+                </a>
+                <a class="Cartes_hebergements" href="">
                 <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg" alt="Hôtel les Mouettes">
                     <div class="Texte_hebergement">
                         <div class="conteneur_hebergement">
@@ -86,10 +97,10 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                         </div>
                     </div>    
-                </div>
+                </a>
             </div>
-            <div id="deuxieme_ligne_hebergement">
-                <div class="Cartes_hebergements">
+            <div class="ligne_hebergement">
+                <a class="Cartes_hebergements" href="">
                     <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg" alt="Hôtel de la mer">
                     <div class="Texte_hebergement">
                         <div class="conteneur_hebergement">
@@ -98,8 +109,8 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                         </div>
                     </div>
-                </div>
-                    <div class="Cartes_hebergements">
+                </a>
+                <a class="Cartes_hebergements" href="">
                         <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" alt="Auberge Le Panier">
                         <div class="Texte_hebergement">
                             <div class="conteneur_hebergement">
@@ -108,8 +119,8 @@
                                 <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                             </div>
                         </div>
-                    </div>
-                    <div class="Cartes_hebergements">
+                    </a>
+                    <a class="Cartes_hebergements" href="">
                         <img class="photo_hebergement" src="Images_Booki/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" alt="Hôtel Chez Amina">
                         <div class="Texte_hebergement">
                             <div class="conteneur_hebergement">
@@ -118,14 +129,14 @@
                                 <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p>
                             </div>    
                         </div> 
-                    </div>
+                    </a>
                 </div>  
                 <p class="afficher_plus">Afficher plus</p>
-            </div>
-            <div id="Les_plus_populaires">
+            </article>
+            <aside id="Les_plus_populaires">
                 <h3 id="Top_carte">Les plus populaires<i class="fa-solid fa-chart-line" id="chartline"></i></h3>
                 <div id="bloc_carte_populaire">
-                <div class="Cartes_populaire">
+                <a class="Cartes_populaire" href="">
                     <img class="photo_populaire" src="Images_Booki/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg" alt="Hôtel du soleil le matin">
                     <div class="test_p">
                         <div class="Texte_populaire">
@@ -136,8 +147,8 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p></p>
                         </div>
                     </div>
-                </div>
-                <div class="Cartes_populaire">
+                </a>
+                <a class="Cartes_populaire" href="">
                     <img class="photo_populaire" src="Images_Booki/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg" alt="Hôtel du soleil le matin">
                     <div class="test_p">
                         <div class="Texte_populaire">
@@ -148,8 +159,8 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p></p>
                         </div>
                     </div>
-                </div>
-                <div class="Cartes_populaire">
+                </a>
+                <a class="Cartes_populaire" href="">
                     <img class="photo_populaire" src="Images_Booki/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg" alt="Hôtel du soleil le matin">
                     <div class="test_p">
                         <div class="Texte_populaire">
@@ -160,31 +171,31 @@
                             <p class="Etoiles_hebergement"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><span class="etoiles_grise"><i class="fa-solid fa-star"></i></span> <p></p>
                         </div>
                         </div>
-                    </div>
+                    </a>
                 </div>
-            </div>
+            </aside>
         </div>  
-        <div id="Activités_Marseille">
+        <article id="Activités_Marseille">
             <h3 class="Activités_à_Marseille" >Activités à Marseille</h3>
             <div id="toute_cartes_activité">
-                 <div class="Carte_activité">
+                 <a class="Carte_activité" href="">
                     <img class="Photo_activité" src="Images_booki/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg" alt="Vieux Port">
                     <h4 class="Titre_activité">Vieux port</h4>
-                </div>
-                <div class="Carte_activité">
+                 </a>
+                 <a class="Carte_activité" href="">
                     <img class="Photo_activité" src="Images_booki/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg" alt="Fort de Pomègues">
                     <h4 class="Titre_activité">Fort de Pomègues</h4>
-                </div>
-                <div class="Carte_activité">
+                </a>
+                <a class="Carte_activité" href="">
                     <img class="Photo_activité" src="Images_booki/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg" alt="Parc national des Calanques">
                     <h4 class="Titre_activité">Parc national des Calanques</h4>
-                </div>
-                <div class="Carte_activité">
+                </a>
+                <a class="Carte_activité" href="">
                     <img class="Photo_activité" src="Images_booki/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg" alt="Notre-Dame-de-la-Garde">
                     <h4 class="Titre_activité">Notre-Dame-de-la-Garde</h4>
-                </div>
+                </a>
             </div>    
-        </div>
+        </article>
         <footer>
             <div id="texte_footer">
                 <div id="à_propos">
