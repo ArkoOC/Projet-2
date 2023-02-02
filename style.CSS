@@ -68,7 +68,7 @@ h2{
     display: none;
 }
 
-#icone{
+.icone{
     background: #F2F2F2;
     border: 3px solid #F2F2F2;
     border-radius: 15px 0px 0px 15px;
@@ -76,7 +76,7 @@ h2{
     font-size: 16px;
 }
 
-#Bouton{
+.Bouton{
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
@@ -93,7 +93,7 @@ h2{
     
 }
 
-#Bouton:active{
+.Bouton:active{
     border:1px solid black ;
 }
 
@@ -526,9 +526,8 @@ footer a:hover{
     #filtres{
         display: grid;
         column-count: 2;
-        grid-template-columns: 50% 50%;
+        grid-template-columns: 45% 45%;
         width: 90%;
-        column-gap: -5em;
         row-gap: 1em;
         margin: auto;
         margin-top: 1em;
