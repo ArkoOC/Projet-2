@@ -76,7 +76,7 @@ h2{
     font-size: 16px;
 }
 
-.Bouton{
+.Bouton,#Bouton_mobile{
     background: #0065FC;
     border: 1px solid #0065FC;
     border-radius: 0px 15px 15px 0px;
